@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.VBox?>
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.warframeapi.warframeapifx.Controller.HelloController" alignment="TOP_CENTER" fx:id="contenuAll">
+    <children>
+        <HBox GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="4" alignment="CENTER"><Label fx:id="lieuxfx" text="Lieux"/></HBox>
+        <Button fx:id="earthCycle" onAction="#onHelloButtonClick" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <Label fx:id="earthTxt" text="Hearth Cycle" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+        <Button fx:id="cetusCycle" onAction="#onHelloButtonClick" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        <Label fx:id="cetusTxt" text="Cetus Cycle" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+        <Button fx:id="cambionCycle" onAction="#onHelloButtonClick" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+        <Label fx:id="cambionTxt" text="Cambion Cycle" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+        <Button fx:id="vallisCycle" onAction="#onHelloButtonClick" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+        <Label fx:id="vallisTxt" text="Vallis Cycle" GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+
+        <Button fx:id="imgCycle" visible="false" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <Label fx:id="retourApi" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        <Button fx:id="retourChoixLieux" visible="false" text="Retour" onAction="#onReturnButtonClick" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+
+        <HBox fx:id="fissuresfx" GridPane.columnIndex="0" GridPane.rowIndex="3" GridPane.columnSpan="4" alignment="CENTER"><Label fx:id="fissuresfxtxt" text="Fissures"/></HBox>
+        <Label fx:id="node" text="Node" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+        <Label fx:id="enemy" text="Enemy" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+        <Label fx:id="tier" text="Tier" GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+        <Label fx:id="types" text="Mission Type" GridPane.columnIndex="3" GridPane.rowIndex="4"/>
+
+    </children>
+</GridPane>

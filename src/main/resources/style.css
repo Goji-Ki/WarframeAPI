@@ -1,0 +1,53 @@
+#contenuAll {
+    -fx-background-image: url("fond.jpg");
+    -fx-background-size: cover;
+}
+
+.label {
+    -fx-padding : 5px;
+    -fx-font-weight: bold;
+}
+
+#retourApi{
+    -fx-text-fill: white;
+}
+
+#lieuxfx{
+    -fx-text-fill: white;
+}
+
+#earthTxt {
+    -fx-text-fill: white;
+}
+
+#cetusTxt{
+    -fx-text-fill: white;
+}
+
+#cambionTxt{
+    -fx-text-fill: white;
+}
+
+#vallisTxt{
+    -fx-text-fill: white;
+}
+
+#fissuresfxtxt {
+    -fx-text-fill: white;
+}
+
+#node{
+    -fx-text-fill: white;
+}
+
+#enemy{
+    -fx-text-fill: white;
+}
+
+#tier{
+    -fx-text-fill: white;
+}
+
+#types{
+    -fx-text-fill: white;
+}
